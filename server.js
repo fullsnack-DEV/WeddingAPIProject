@@ -5,6 +5,8 @@ app.listen(port, () => {
   console.log("I am Running");
 });
 
-app.get("/", (req, res) => {
-  res.send("hello from the server");
-});
+//instead of putting all the HTTP methods in One Separte file
+
+// app.get("/", (req, res) => {
+//   res.send("hello from the server");
+// });
