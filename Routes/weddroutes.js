@@ -4,7 +4,7 @@ const express = require("express");
 
 const weddcontroller = require("../controllers/weddcontrollers");
 
-//Mounting a router
+//Mounting a router in the application
 
 const router = express.Router();
 

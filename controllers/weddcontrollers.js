@@ -3,7 +3,7 @@
 // Here we will be exporting all the HTTP MEthods
 
 //getting all the wedding places available in the database
-exports.getallweddingplaces = (req, res, next) => {
+exports.getallweddingplaces = (req, res) => {
   //using try catch to handle the error
   try {
     //We will be also sending status code
@@ -11,7 +11,7 @@ exports.getallweddingplaces = (req, res, next) => {
     res.status(200).json({
       status: "Success",
       data: {
-        message: "I am running well dont worry",
+        message: "Server responded on the server 8000",
       },
     });
   } catch (err) {
@@ -24,14 +24,14 @@ exports.getallweddingplaces = (req, res, next) => {
 };
 
 //getting the One wedding place according to the ID specified
-exports.getWeddingplace = (req, res, next) => {
+exports.getWeddingplace = (req, res) => {
   try {
     //We will be also sending status code
 
     res.status(200).json({
       status: "Success",
       data: {
-        message: "I am running well",
+        message: "Server responded on the port 8000",
       },
     });
   } catch (err) {

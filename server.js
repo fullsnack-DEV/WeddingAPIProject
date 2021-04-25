@@ -2,7 +2,7 @@ const app = require("./app");
 const port = 8000;
 
 app.listen(port, () => {
-  console.log("I am Running");
+  console.log("development Server working!");
 });
 
 //instead of putting all the HTTP methods in One Separte file
